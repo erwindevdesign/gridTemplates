@@ -1,0 +1,62 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+
+main{
+    background-color: #2B3040;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 2%;
+    
+}
+
+section{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.content_one{
+    background-color: #02735E;
+    height: 48vh;
+    width: 48vw;
+    
+    left: 2px;
+    right: 2%;
+}
+
+.content_two{
+    background-color:#F27E63;
+    height: 50vh;
+    width: 50vw;
+}
+
+.content_three{
+    background-color:#733C30;
+    height: 50vh;
+    width: 50vw;
+}
+
+.content_four{
+    background-color:#F25E5E;
+    height: 50vh;
+    width: 50vw;
+}
+
