@@ -13,4 +13,4 @@
 
 ## INTRODUCTION
 
-_Este repositorio es una practica de realización de plantillas HTML-CSS grid-flex para su uso como muestra de estructura de pagina web._
+_This repository is a practice for making HTML-CSS grid-flex templates for use as a sample web page structure._
