@@ -14,7 +14,7 @@ html{
     height: 100vh;
     display: grid;
     grid-template-columns: 40vw 40vw;
-    grid-auto-rows: 45vh;
+    grid-auto-rows: 30vh;
     gap: 2rem;
     place-content: center;
     
@@ -39,14 +39,46 @@ section{
 }
 
 .content_two{
-    background-color:#F27E63;   
+    background-color:#733C30;   
 }
 
 .content_three{
-    background-color:#733C30;
+    background-color:#F27E63;
 }
 
 .content_four{
+    background-color:#02735E;   
+}
+
+.content_five{
+    background-color:#02735E;   
+}
+
+.content_six{
     background-color:#F25E5E;   
 }
 
+@media screen and (min-width: 1024px) {
+    
+    *{
+        background-color: lightblue;
+    }
+
+    .content{
+        grid-template-columns: 30vw 30vw 30vw;
+        grid-auto-rows: 40vh;
+        gap: 2rem;
+    }
+
+    section{
+        display: flex;
+        align-items:center;
+        justify-content:center;
+        color: lightblue;
+    }
+
+    .content_four{
+        background-color:#2B3040;   
+    }
+
+}
