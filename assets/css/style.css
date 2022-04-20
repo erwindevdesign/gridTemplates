@@ -1,79 +1,24 @@
 html{
     font-size: 62.5%;
-<<<<<<< HEAD
-=======
     background-color: #2F3F56;
 
->>>>>>> 04175f19a6801e144fc0190483f97f78fcf633b7
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    display: flexbox;
-}
-
-main{
-    background-color: #2B3040;
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    gap: 2%;
-    
-}
-
-section{
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 5rem;
-    color: aliceblue;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
-}
-
-.content_one{
-    background-color: #02735E;
-    height: 48vh;
-    width: 48vw;
-    
-    left: 2px;
-    right: 2%;
-}
-
-.content_two{
-    background-color:#F27E63;
-    height: 50vh;
-    width: 50vw;
-}
-
-.content_three{
-    background-color:#733C30;
-    height: 50vh;
-    width: 50vw;
-}
-
-.content_four{
-    background-color:#F25E5E;
-    height: 50vh;
-    width: 50vw;
-}
-
-=======
     
 }
 
 .content{
     display: grid;
-    grid-template-columns: 30vw 30vw 30vw   ;
+    grid-template-columns: 30vw 30vw 30vw;
     grid-template-rows: 30vh 30vh 30vh;
+    grid-template-areas: 
+    "main main asite"
+    "article1 article2 asite"
+    "article1 article2 asite";
     place-content: center;
     margin-top: 5vh;
     gap: 1rem;
@@ -85,6 +30,7 @@ section{
     border: 1px solid red;
     grid-column-start: 1;
     grid-column-end: 3;
+    grid-area: main;
 }
 
 .two{
@@ -93,18 +39,21 @@ section{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row: 1/4;
+    grid-area: asite;
+
 }
 
 .three{
     background-color: #E6AA52;
     border: 1px solid red;
     grid-row: 2/4;
+    grid-area: article1;
 }
 
 .four{
     background-color: #EE5D5A;
     border: 1px solid red;
     grid-row: 2/4;
+    grid-area: article2;
     
 }
->>>>>>> 04175f19a6801e144fc0190483f97f78fcf633b7
