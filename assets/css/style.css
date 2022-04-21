@@ -13,21 +13,20 @@ html{
 
 .content{
     display: grid;
-    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
-    grid-template-rows: 30vh 30vh 30vh;
+    grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw ;
+    grid-template-rows: 18vh 18vh 18vh 18vh 18vh;
     grid-template-areas: 
-    "one two three four five six"
-    "seven eight nine ten eleven twelve"
-    "thirteen fourteen fifteen sixteen seventeen eighteen";
+    "one one three four"
+    "five six seven ."
+    "nine nine eleven twelve"
+    "nine nine fifteen ."
+    "eighteen eighteen eighteen two";
     place-content: center;
     margin-top: 2.5vh;
-    gap: 3rem;
+    gap: 1rem;
 
 }
 
-section{
-    border-radius: 3rem;
-}
 
 .one{
     background-color: #01A787;
