@@ -14,49 +14,149 @@ html{
 .content{
     display: grid;
     grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
-    grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh;
+    grid-template-rows: 30vh 30vh 30vh;
     grid-template-areas: 
-    "head head head header header header"
-    "head head head header header header"
-    "asite asite main main main main"
-    "asite asite main main main main"
-    "asite asite main main main main"
-    "footer footer footer footer footer footer";
+    "one two three four five six"
+    "seven eight nine ten eleven twelve"
+    "thirteen fourteen fifteen sixteen seventeen eighteen";
     place-content: center;
     margin-top: 2.5vh;
-    gap: 1rem;
+    gap: 3rem;
 
+}
+
+section{
+    border-radius: 3rem;
 }
 
 .one{
-    background-color: #16686B;
+    background-color: #01A787;
     border: 1px solid red;
-    grid-area: asite;
+    grid-area: one;
 }
 
 .two{
-    background-color: #AEC9C3;
+    background-color: #FD825C;
     border: 1px solid red;
-    grid-area: footer;
+    grid-area: two;
 
 }
 
 .three{
-    background-color: #E6AA52;
+    background-color: #1BC1A1;
     border: 1px solid red;
-    grid-area: head;
+    grid-area: three;
 }
 
 .four{
-    background-color: #EE5D5A;
+    background-color: #FC6057;
     border: 1px solid red;
-    grid-area: main;
+    grid-area: four;
     
 }
 
 .five{
-    background-color: #8d1d1b;
+    background-color: #1BC1A1;
     border: 1px solid red;
-    grid-area: header;
+    grid-area: five;
     
+}
+
+.six{
+    background-color: #FD825C;
+    border: 1px solid red;
+    grid-area: six;
+    
+}
+.seven{
+    background-color: #FDA061;
+    border: 1px solid red;
+    grid-area: seven;
+    
+}
+
+.eight{
+    background-color: #01A787;
+    border: 1px solid red;
+    grid-area: eight;
+    
+}
+
+
+.nine{
+    background-color: #FD825C;
+    border: 1px solid red;
+    grid-area: nine;
+    
+}
+
+
+.ten{
+    background-color: #1BC1A1;
+    border: 1px solid red;
+    grid-area: ten;
+    
+}
+
+
+.eleven{
+    background-color: #FDA061;
+    border: 1px solid red;
+    grid-area: eleven;
+    
+}
+
+
+.twelve{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: twelve;
+    
+}
+
+
+.thirteen{
+    background-color: #01A787;
+    border: 1px solid red;
+    grid-area: thirteen;
+    
+}
+
+
+.fourteen{
+    background-color: #FC6057   ;
+    border: 1px solid red;
+    grid-area: fourteen;
+    
+}
+
+
+.fifteen{
+    background-color: #34DABA;
+    border: 1px solid red;
+    grid-area: fifteen;
+    
+}
+
+
+.sixteen{
+    background-color: #FD825C;
+    border: 1px solid red;
+    grid-area: sixteen;
+    
+}
+
+
+.seventeen{
+    background-color: #01A787;
+    border: 1px solid red;
+    grid-area: seventeen;
+    
+}
+
+
+.eighteen{
+    background-color: #34DABA;
+    border: 1px solid red;
+    grid-area: eighteen;
 }
