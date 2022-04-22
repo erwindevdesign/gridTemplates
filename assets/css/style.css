@@ -17,11 +17,12 @@ section{
 
 .content{
     display: grid;
-    grid-template-columns: 48vw 48vw;
-    grid-template-rows: 23vh 73vh;
+    grid-template-columns: 18vw 18vw 18vw 18vw 18vw;
+    grid-template-rows: 31vh 31vh 31vh;
     grid-template-areas: 
-    "one two"
-    "three four";
+    "one two three four five"
+    "six seven eight eight eight"
+    "nine nine nine nine nine";
     place-content: center;
     margin-top: 2%;
     gap: 1rem;
@@ -52,29 +53,35 @@ section{
     background-color: #00A686;
     border: 1px solid red;
     grid-area: four;
-    padding: 3vw;
-    display: grid;
-    grid-template-columns: 48% 48%;
-    grid-template-rows: 23% 73%;
-    grid-template-areas: 
-    "fournav fournav"
-    "fourasite foursection";
-    place-content: center;
-    
     gap: 1rem;
 }
 
-.four__nav{
-    background-color: #34DABA;
-    grid-area: fournav;
+.five{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: five;
 }
 
-.four__asite{
-    background-color: #1BC1A1;
-    grid-area: fourasite;
+.six{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: six;
 }
 
-.four__section{
-    background-color: #FDA061;
-    grid-area: foursection;
+.seven{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: seven; 
+}
+
+.eight{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: eight;
+}
+
+.nine{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: nine;
 }
