@@ -11,151 +11,70 @@ html{
     
 }
 
+section{
+    border-radius: 1rem;
+}
+
 .content{
     display: grid;
-    grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw ;
-    grid-template-rows: 18vh 18vh 18vh 18vh 18vh;
+    grid-template-columns: 48vw 48vw;
+    grid-template-rows: 23vh 73vh;
     grid-template-areas: 
-    "one one three four"
-    "five six seven ."
-    "nine nine eleven twelve"
-    "nine nine fifteen ."
-    "eighteen eighteen eighteen two";
+    "one two"
+    "three four";
     place-content: center;
-    margin-top: 2.5vh;
+    margin-top: 2%;
     gap: 1rem;
 
 }
 
 
 .one{
-    background-color: #01A787;
+    background-color: #FDA061;
     border: 1px solid red;
     grid-area: one;
 }
 
 .two{
-    background-color: #FD825C;
+    background-color: #34DABA;
     border: 1px solid red;
     grid-area: two;
 
 }
 
 .three{
-    background-color: #1BC1A1;
+    background-color: #FC6057;
     border: 1px solid red;
     grid-area: three;
 }
 
 .four{
-    background-color: #FC6057;
+    background-color: #00A686;
     border: 1px solid red;
     grid-area: four;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 23% 73%;
+    grid-template-areas: 
+    "fournav fournav"
+    "fourasite foursection";
+    place-content: center;
     
+    gap: 1rem;
 }
 
-.five{
-    background-color: #1BC1A1;
-    border: 1px solid red;
-    grid-area: five;
-    
-}
-
-.six{
-    background-color: #FD825C;
-    border: 1px solid red;
-    grid-area: six;
-    
-}
-.seven{
-    background-color: #FDA061;
-    border: 1px solid red;
-    grid-area: seven;
-    
-}
-
-.eight{
-    background-color: #01A787;
-    border: 1px solid red;
-    grid-area: eight;
-    
-}
-
-
-.nine{
-    background-color: #FD825C;
-    border: 1px solid red;
-    grid-area: nine;
-    
-}
-
-
-.ten{
-    background-color: #1BC1A1;
-    border: 1px solid red;
-    grid-area: ten;
-    
-}
-
-
-.eleven{
-    background-color: #FDA061;
-    border: 1px solid red;
-    grid-area: eleven;
-    
-}
-
-
-.twelve{
-    background-color: #FC6057;
-    border: 1px solid red;
-    grid-area: twelve;
-    
-}
-
-
-.thirteen{
-    background-color: #01A787;
-    border: 1px solid red;
-    grid-area: thirteen;
-    
-}
-
-
-.fourteen{
-    background-color: #FC6057   ;
-    border: 1px solid red;
-    grid-area: fourteen;
-    
-}
-
-
-.fifteen{
+.four__nav{
     background-color: #34DABA;
-    border: 1px solid red;
-    grid-area: fifteen;
-    
+    grid-area: fournav;
 }
 
-
-.sixteen{
-    background-color: #FD825C;
-    border: 1px solid red;
-    grid-area: sixteen;
-    
+.four__asite{
+    background-color: #1BC1A1;
+    grid-area: fourasite;
 }
 
-
-.seventeen{
-    background-color: #01A787;
-    border: 1px solid red;
-    grid-area: seventeen;
-    
-}
-
-
-.eighteen{
-    background-color: #34DABA;
-    border: 1px solid red;
-    grid-area: eighteen;
+.four__section{
+    background-color: #FDA061;
+    grid-area: foursection;
 }
