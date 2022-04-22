@@ -17,12 +17,12 @@ section{
 
 .content{
     display: grid;
-    grid-template-columns: 18vw 18vw 18vw 18vw 18vw;
+    grid-template-columns: 31vw 31vw 31vw;
     grid-template-rows: 31vh 31vh 31vh;
     grid-template-areas: 
-    "one two three four five"
-    "six seven eight eight eight"
-    "nine nine nine nine nine";
+    "one one one"
+    "two three three"
+    "two four five";
     place-content: center;
     margin-top: 2%;
     gap: 1rem;
@@ -66,22 +66,4 @@ section{
     background-color: #FC6057;
     border: 1px solid red;
     grid-area: six;
-}
-
-.seven{
-    background-color: #FC6057;
-    border: 1px solid red;
-    grid-area: seven; 
-}
-
-.eight{
-    background-color: #FC6057;
-    border: 1px solid red;
-    grid-area: eight;
-}
-
-.nine{
-    background-color: #FC6057;
-    border: 1px solid red;
-    grid-area: nine;
 }
