@@ -1,62 +1,69 @@
 html{
     font-size: 62.5%;
+    background-color: #2F3F56;
+
 }
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    display: flexbox;
-}
-
-main{
-    background-color: #2B3040;
-    height: 100vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    gap: 2%;
     
 }
 
 section{
-    font-family: Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 5rem;
-    color: aliceblue;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
+    border-radius: 1rem;
 }
 
-.content_one{
-    background-color: #02735E;
-    height: 48vh;
-    width: 48vw;
-    
-    left: 2px;
-    right: 2%;
+.content{
+    display: grid;
+    grid-template-columns: 31vw 31vw 31vw;
+    grid-template-rows: 31vh 31vh 31vh;
+    grid-template-areas: 
+    "one one one"
+    "two three three"
+    "two four five";
+    place-content: center;
+    margin-top: 2%;
+    gap: 1rem;
+
 }
 
-.content_two{
-    background-color:#F27E63;
-    height: 50vh;
-    width: 50vw;
+
+.one{
+    background-color: #FDA061;
+    border: 1px solid red;
+    grid-area: one;
 }
 
-.content_three{
-    background-color:#733C30;
-    height: 50vh;
-    width: 50vw;
+.two{
+    background-color: #34DABA;
+    border: 1px solid red;
+    grid-area: two;
+
 }
 
-.content_four{
-    background-color:#F25E5E;
-    height: 50vh;
-    width: 50vw;
+.three{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: three;
 }
 
+.four{
+    background-color: #00A686;
+    border: 1px solid red;
+    grid-area: four;
+    gap: 1rem;
+}
+
+.five{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: five;
+}
+
+.six{
+    background-color: #FC6057;
+    border: 1px solid red;
+    grid-area: six;
+}
