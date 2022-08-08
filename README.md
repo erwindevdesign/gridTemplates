@@ -1,16 +1,15 @@
-# README
+# HTML-CSS / grid-flex-position templates
 
 ## CONTENTS OF THIS FILE
 
-* Introduction
+* [Introduction](#id1)
 * Requirements
 * Recommended
-* Installation
 * Configuration
 * Troubleshooting
 * FAQ
 * Maintainers
 
-## INTRODUCTION
+## INTRODUCTION <a name='id1'></a>
 
-_This repository is a practice for making HTML-CSS grid-flex templates for use as a sample web page structure._
+This repository is a practice for making HTML-CSS grid-flex templates for use as a sample web page structure.
